@@ -1,0 +1,140 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+section p {
+ background: red;
+}
+
+section div {
+    background: green;
+}
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+ul > li {
+    background: red;
+}
+
+.header-button + span {
+    background: red;
+}
+
+.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+li:first-child {
+    color: white;
+}
+
+ul:first-child li:first-child {
+    color: yellow;
+}
+
+ul:last-child li:first-child {
+    background: yellow;
+}
+
+li:last-child {
+    background: yellow;
+}
+
+ul:last-child li:last-child {
+    color: white;
+}
+
+div:only-child {
+    color: red;
+  }
+
+.seven-task :first-of-type {
+    background: red;
+  }
+
+.eight-task :last-of-type {
+    background: red;
+}
+
+p:only-of-type {
+    background: yellow;
+}
+
+a[href] {
+    color: white;
+}
+
+li[value] {
+    color: yellow;
+}
+
+li[value="3"] {
+    background: red;
+}
+
+button[class~="primary"] {
+    background: blue;
+}
+
+button[class|="secondary"] {
+    background: red;
+}
+
+li[class^="b"] {
+    color: green;
+    background: white;
+}
+
+li[class*="on"] {
+    color: green;
+    background: white;
+}
+
+span[class$="s"] {
+    color: blue;
+    background: white;
+}
+
+h2::first-letter {
+    color: red;
+}
+
+p::first-line {
+    background: yellow;
+}
+
+input::placeholder {
+    background: red;
+}
+
+li::before {
+    content: "➤";
+}
+
+li::after {
+    content: "➤";
+}
